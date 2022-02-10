@@ -152,7 +152,9 @@ body {
 }
 
 
-
+.hero__pic {
+  margin-bottom: 25px;
+}
 
 .hero__text {
   width: 100%;
