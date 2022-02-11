@@ -167,7 +167,9 @@ body {
 .input-t {
   height: 120px;
 }
-
+.input:focus {
+  background-color: #000;
+}
 .btn {
   padding: 17px 30px;
   font-size: 12px;
