@@ -1,9 +1,6 @@
+let elHeaderMenu = document.querySelector(".header");
+let elHamburgMenu = elHeaderMenu.querySelector(".header-hamburg__btn");
 
-let elBtn = document.querySelector('.header__burger');
-let elNav = document.querySelector('.header__nav') 
-let elBtnToggle = document.querySelector('.header__burger')
-
-elBtn.addEventListener('click', function(){
-  elNav.classList.toggle('show');
-  elBtnToggle.classList.toggle('active')
+elHamburgMenu.addEventListener("click", function(){
+  elHeaderMenu.classList.toggle("header-top__open");
 })

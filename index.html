@@ -5,147 +5,131 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>final exam</title>
 </head>
 
 <body>
-  <header id="header">
-    <div class="container">
-      <div class="header row middle-xs between-xs">
-        <div class="header__box-img">
-          <a class="header__img" href="index.html">
-            <img class="header__logo" src="img/logo.svg" alt="logo">
-          </a>
-        </div>
-        <nav class="header__nav">
-          <ul class="header__list list row middle-xs">
-            <li class="list__item">
-              <a class="list__link list-link--active" href="index.html">
-                HOME
-              </a>
-            </li>
-            <li class="list__item">
-              <a class="list__link" href="portfolio.html">
-                PORTFOLIO
-              </a>
-            </li>
-            <li class="list__item">
-              <a class="list__link" href="contact.html">
-                CONTACT ME
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <button class="header__burger"></button>
-      </div>
-    </div>
-  </header>
 
-
-  <section id="hero">
-    <div class="container">
-      <div class="hero">
-          <div class="hero__main">
-            <h1 class="hero__title">
-              Hey, I’m Alex Spencer and I love building beautiful websites
-            </h1>
-            <div class="hero__button middle-xs">
-              <i class='bx bx-chevrons-down down'></i>
-              <a class="hero__btn" href="#">
-                ABOUT ME</a>
-            </div>
-          </div>
-      </div>
-    </div>
-  </section>
-
-
-<main id="main">
- <section id="about">
   <div class="container">
-    <div class="about row between-xs middle-xs col-xs-12">
-      <div class="about__boximg col--xs-6">
-        <img class="about__img" src="img/main-hero-img.png" alt="">
+    <header class="header">
+
+      <a href="index.html" class="logo-holder">
+        <img src="./img/logo.svg" alt="logo" class="header-logo">
+      </a>
+
+      <ul class="header-nav">
+        <li class="header-nav__item">
+          <a href="index.html" class="header-nav__link active">HOME</a>
+        </li>
+
+        <li class="header-nav__item">
+          <a href="portfolio.html" class="header-nav__link">PORTFOLIO</a>
+        </li>
+
+        <li class="header-nav__item">
+          <a href="contact.html" class="header-nav__link">CONTACT ME</a>
+        </li>
+      </ul>
+
+      <button type="button" class="header-hamburg__btn"></button>
+
+    </header>
+
+    <div class="site-hero">
+      <div class="site-hero__holder">
+        <h1 class="site-hero__title">
+          Hey, I’m Alex Spencer and I love building beautiful websites
+        </h1>
+
+        <a href="#about-id" class="site-hero__btn">ABOUT ME</a>
       </div>
-      <div class="col--xs-6">
-          <h2 class="about__title">
-            About Me
-          </h2>
-          <p class="about__text">
-            I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s going for a walk, run or cycling. I’d love you to check out my work.
-          </p>
-          <div class="about__button">
-            <a class="about__btn btn" href="#">GO TO PORTFOLIO</a>
-          </div>
-      </div>
+
     </div>
-  </div>
- </section> 
 
- <section id="interested">
-   <div class="container">
-     <div class="doing row middle-xs between-xs">
-        <div class="doing__main">
-          <h2 class="doing__title">
-            Interested in doing a project together?
-          </h2>
-        </div>
-        <div class="doing__button">
-          <a class="doing__btn btn" href="#">
-            CONTACT ME
-          </a>
-        </div>
-     </div>
-   </div>
- </section>
-</main>
+    <main class="about" id="about-id">
+      <div class="self__img-box"></div>
 
-<footer id="footer">
-  <div class="container">
-    <div class="footer row middle-xs between-xs">
-      <div class="footer__logo row middle-xs">
-        <a class="footer__boximg" href="#">
-          <img class="footer__img" src="img/footer-logo.svg" alt="">
+      <div class="about-desc">
+        <h3 class="about-heading">
+          About Me
+        </h3>
+
+        <p class="about-text">
+          I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible
+          HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use
+          React, but I can adapt to whatever tools are required. I’m based in London, UK, but I’m happy working remotely
+          and have experience in remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature
+          whether that’s going for a walk, run or cycling. I’d love you to check out my work.
+        </p>
+
+        <a href="./portfolio.html" class="about-btn">
+          GO TO PORTFOLIO
         </a>
-        <ul class="footer__list row middle-xs between-xs">
-          <li class="footer__item">
-            <a class="footer__link footer__link--active" href="index.html">
-              HOME
-            </a>
-          </li>
-          <li class="footer__item">
-            <a class="footer__link" href="portfolio.html">
-              PORTFOLIO
-            </a>
-          </li>
-          <li class="footer__item">
-            <a class="footer__link" href="contact.html">
-              CONTACT ME
-            </a>
-          </li>
-        </ul>
       </div>
-      <div class="footer__icons">
-          <a href="#">
-            <i class='bx bxl-github footer__icon'></i>
-          </a>
-          <a href="#">
-            <i class='bx bxl-twitter footer__icon'></i>
-          </a>
-          <a href="#">
-            <i class='bx bxl-linkedin-square footer__icon'></i>
-          </a>
+    </main>
+
+
+
+
+
+    <div class="doing">
+      <h2 class="doing-heading">
+        Interested in doing a project together?
+      </h2>
+
+      <div class="doing-button">
+        <a href="./contact.html" class="doing-btn">
+          CONTACT ME
+        </a>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <footer class="footer">
+
+    <div class="footer-section container">
+      <a href="index.html" class="logo-holder">
+        <img src="./img/footer-logo.svg" alt="logo" class="footer-logo">
+      </a>
+
+
+      <ul class="footer-container">
+        <li class="footer-container__content">
+          <a href="index.html" class="footer-container__link active">HOME</a>
+        </li>
+
+        <li class="footer-container__content">
+          <a href="portfolio.html" class="footer-container__link">PORTFOLIO</a>
+        </li>
+
+        <li class="footer-container__content">
+          <a href="contact.html" class="footer-container__link">CONTACT ME</a>
+        </li>
+      </ul>
+
+      <div class="footer-social">
+        <a href="https://github.com/" class="footer-social__link">
+          <img class="footer-social__img" src="./img/git.svg" alt="Git">
+        </a>
+
+        <a href="https://twitter.com/?lang=ru" class="footer-social__link">
+          <img class="footer-social__img" src="./img/twitter.svg" alt="twitter">
+        </a>
+
+        <a href="https://ru.linkedin.com/" class="footer-social__link">
+          <img class="footer-social__img" src="./img/linkedin.svg" alt="Linkedin">
+        </a>
       </div>
     </div>
-  </div>
-</footer>
+
+  </footer>
 
 
-  <script src="js/main.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
